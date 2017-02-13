@@ -1,0 +1,30 @@
+Inputs: t (option expiration date in years), T (bond maturity date in years), r (the spot rates for period i ), s (the volatility for period i ) and X (strike price as % of par). 
+Outputs: the option value. 
+
+For example, suppose 
+t = 2, 
+T = 3, 
+r = [ 4% 4.2% 4.3% ], 
+s =[ 20.27% 20.27% 20.27% ] and 
+X = 90% of par. 
+The call value is 0.0524.
+
+2
+3
+0.04
+0.042
+0.043
+0.2027
+0.2027
+0.2027
+0.9
+
+2
+3
+4
+4.2
+4.3
+20.27
+20.27
+20.27
+90
